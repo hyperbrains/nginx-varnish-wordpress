@@ -1,2 +1,1 @@
-# digitalocean-ubuntu-nginx-varnish-wordpress-conf
-for wordpress
+# Configs for WordPress
