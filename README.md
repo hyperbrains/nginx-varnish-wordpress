@@ -1,4 +1,5 @@
-# Nginx Tuning For Best Performance in WordPress
+Nginx Tuning For Best Performance
+==
 
 Configurations
 ----
