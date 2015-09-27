@@ -1,6 +1,6 @@
 # Configs for WordPress
 
-![Varnish-WordPress-cache](https://i.imgur.com/wwVBB1q.png)
+![Varnish-WordPress-nginx-cache](https://i.imgur.com/wwVBB1q.png)
 
 Purge Varnish WordPress-cache: [Varnish HTTP Purge](https://wordpress.org/plugins/varnish-http-purge/)
 
