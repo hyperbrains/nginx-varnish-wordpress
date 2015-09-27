@@ -1,0 +1,33 @@
+server {
+    listen 8080;
+
+    server_name www.server_one;
+    root        /var/www/server_one;
+    index       index.php index.html index.htm;
+
+    access_log /var/log/nginx/www.server_one.access_log;
+    error_log /var/log/nginx/www.server_one.error_log;
+
+    # Security
+    include conf.d/security.conf;
+
+
+    location / {
+        # This is cool because no php is touched for static content. 
+        # include the "?$args" part so non-default permalinks doesn't break when using query string
+        try_files $uri $uri/ /index.php?$args;
+    }
+
+    error_page 404 /404.html;
+
+    location ~ \.php$ {
+            try_files $uri =404;
+            fastcgi_split_path_info ^(.+\.php)(/.+)$;
+            fastcgi_pass unix:/var/run/php5-fpm.sock;
+            fastcgi_index index.php;
+            include fastcgi_params;
+    }
+
+    # Caching
+    include conf.d/cache.conf;
+}
