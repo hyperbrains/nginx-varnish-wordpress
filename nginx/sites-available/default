@@ -26,6 +26,6 @@ server {
     }
 
     include /etc/nginx/generic/security.conf;
-    include /etc/nginx/generic/cache.conf;
+    // include /etc/nginx/generic/cache.conf;
 
 }
