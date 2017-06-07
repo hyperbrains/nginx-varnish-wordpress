@@ -1,13 +1,11 @@
-Nginx Tuning For Best Performance
-==
+# Nginx Tuning For Best Performance
 
-Configurations
-----
+## Configurations
 
-* [nginx](https://github.com/hyperbrains/nginx-varnish-wordpress/tree/master/nginx)
-* [varnish 4](https://github.com/hyperbrains/nginx-varnish-wordpress/tree/master/varnish)
-* [php-fpm](https://github.com/hyperbrains/nginx-varnish-wordpress/tree/master/php5-fpm)
-* [ubuntu sysctl.conf](https://github.com/hyperbrains/nginx-varnish-wordpress/tree/master/ubuntu)
+* [nginx](https://github.com/shelepenok/nginx-varnish-wordpress/tree/master/nginx)
+* [varnish 4](https://github.com/shelepenok/nginx-varnish-wordpress/tree/master/varnish)
+* [php-fpm](https://github.com/shelepenok/nginx-varnish-wordpress/tree/master/php5-fpm)
+* [ubuntu sysctl.conf](https://github.com/shelepenok/nginx-varnish-wordpress/tree/master/ubuntu)
 
 ![Varnish-WordPress-nginx-cache](https://i.imgur.com/wwVBB1q.png)
 
@@ -22,7 +20,7 @@ php-fpm 4 restart using service wrapper script: `service php5-fpm restart`
 ## License
 The MIT license.
 
-Copyright (c) 2016 Alexandr Shelepenok [ashk.io](http://ashk.io)
+Copyright (c) 2016 Alexander Shelepenok
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
