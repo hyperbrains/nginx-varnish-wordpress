@@ -2,10 +2,10 @@
 
 ## Configurations
 
-* [nginx](https://github.com/shelepenok/nginx-varnish-wordpress/tree/master/nginx)
-* [varnish 4](https://github.com/shelepenok/nginx-varnish-wordpress/tree/master/varnish)
-* [php-fpm](https://github.com/shelepenok/nginx-varnish-wordpress/tree/master/php5-fpm)
-* [ubuntu sysctl.conf](https://github.com/shelepenok/nginx-varnish-wordpress/tree/master/ubuntu)
+* [nginx](https://github.com/alxshelepenok/nginx-varnish-wordpress/tree/master/nginx)
+* [varnish 4](https://github.com/alxshelepenok/nginx-varnish-wordpress/tree/master/varnish)
+* [php-fpm](https://github.com/alxshelepenok/nginx-varnish-wordpress/tree/master/php5-fpm)
+* [ubuntu sysctl.conf](https://github.com/alxshelepenok/nginx-varnish-wordpress/tree/master/ubuntu)
 
 ![Varnish-WordPress-nginx-cache](https://i.imgur.com/wwVBB1q.png)
 
