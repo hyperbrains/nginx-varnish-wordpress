@@ -1,4 +1,6 @@
-# Nginx Tuning For Best Performance
+# nginx-varnish-wordpress
+
+Nginx tuning for best performance.
 
 ## Configurations
 
